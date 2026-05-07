@@ -1,0 +1,14 @@
+# Core runtime dependencies
+python-dotenv
+langfuse>=3,<4
+strands-agents
+openai
+ulid-py
+
+# Analysis dependencies
+pandas
+numpy
+matplotlib
+
+# Testing
+pytest
