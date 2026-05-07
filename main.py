@@ -6,7 +6,7 @@ Usage:
 
 Output:
     output/level_<N>_output.txt   # fraudulent transaction IDs, one per line
-    Prints Langfuse session ID to stdout for submission.
+    Prints the Langfuse session ID to stdout for downstream inspection.
 """
 
 import json

@@ -1,8 +1,7 @@
 """
 Langfuse trace checker — query and analyze traces by session ID.
 
-Useful for monitoring token spend, latency, and cost during the hackathon.
-Run standalone to inspect a completed session's usage.
+Run standalone to inspect a completed session's token usage, cost, and latency.
 
 Usage:
     python -m src.tracking <session_id>

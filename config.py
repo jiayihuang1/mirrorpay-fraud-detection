@@ -56,7 +56,6 @@ MEMORY_DIR = os.getenv("MEMORY_DIR", "memory")  # threat intelligence briefs per
 
 # ---------------------------------------------------------------------------
 # Dataset level → folder mapping
-# Add levels 4-5 here when they are unlocked
 # ---------------------------------------------------------------------------
 LEVEL_FOLDERS: dict[int, str] = {
     1: "The Truman Show - train",
